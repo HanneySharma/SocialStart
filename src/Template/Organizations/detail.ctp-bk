@@ -1,0 +1,22 @@
+<div class="x_content">
+<?php echo $this->Html->link('<i class="glyphicon glyphicon-repeat"></i>',['controller' => 'Organizations','action' =>'index'],['class' => 'btn btn-success pull-right','escape' => false] ); ?>
+<div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="well well-xm">                
+                        <h1><?php echo $Organizations['formal_company_name']." (".$Organizations['companyid']; ?>)</h1> 
+                        <h5>Legal Company Name: <i class="glyphicon glyphicon-lock"></i>  <?php echo $Organizations['legal_company_name']; ?></h5>
+                        <h5>Ceo Name: <i class="glyphicon glyphicon-user"></i> <?php echo $Organizations['first_name']. ' '.$Organizations['last_name']; ?></h5>
+                        <h5>Ceo Email: <i class="glyphicon glyphicon-envelope"></i> <?php echo $Organizations['email']; ?></h5>
+                        <h5>Ceo phone: <i class="glyphicon glyphicon-phone"></i> <?php echo $Organizations['phone']; ?></h5>
+                        <h5>Address: <i class="glyphicon glyphicon-plane"></i> <?php echo $Organizations['city'].','.$Organizations['state'].', '.$Organizations['country']; ?></h5>
+                        <h5>WebSite: <i class="glyphicon glyphicon glyphicon-globe"></i> <?php echo $Organizations['website']; ?></h5>
+                        <h5>Review: &nbsp; <?php echo ($Organizations['review_by_user']['review'] == 0)? '<i class="glyphicon glyphicon glyphicon-thumbs-down"></i>' : '<i class="glyphicon glyphicon glyphicon-thumbs-up"></i>'; ?></h5>
+                        <h5>Comments: <i class="glyphicon glyphicon-comment"></i> <?php echo (!empty($Organizations['comment_by_user'])) ? $Organizations['comment_by_user']['comment'] : 'NA' ; ?></h5>
+                        
+                         <pre style="border:none; padding:10px 0;"><?php echo $Organizations['description']; ?></pre>
+                        
+            </div>
+        </div>
+    </div>
+    
+</div>

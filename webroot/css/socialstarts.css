@@ -1,0 +1,96 @@
+
+body{overflow:hodden !important;}
+.logo_left {
+    width: 99%;
+}
+.form_custom_class{
+    padding: 56px;
+    width: 55%;
+}
+
+.page_count_dropdown {
+    font-weight: normal;
+    margin-bottom: 0;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.navbar.nav_title {
+  background: #0c2136 none repeat scroll 0 0;
+  height: auto;
+  padding: 10px;
+}
+.socialstartscustompagedrop{
+    display: flex;
+}
+
+.socialstartscustom{
+width: auto !important;
+margin-top:10px;
+}
+
+.margin10{
+margin: 0 10px;
+}
+.paddingtop5{
+    padding-top: 5px;
+}
+
+.pageNumberClass{
+    color: white;
+}
+
+.tableColumnHeading{
+    color: white !important;
+}
+
+.socialstarts_marginleftnil{
+    margin-left: 0px !important;
+    float: left !important;
+}
+.socialstarts_padding_login{
+    padding-left: 20px !important;
+}
+.align_center{
+    text-align: center;
+}
+
+
+<!--LOGIN-->
+
+.col-lg-6.col-md-6.col-sm-12.col-xs-12.login-padding > img {
+    height: auto;
+    width: 100%;
+}
+
+.login-padding{padding:0px; margin:0px;}
+
+.oicons.thump {
+    position: relative;
+}
+.fa-thumbs-up.tiresias::after {
+  bottom: -4px;
+  color: #b3c1d2;
+  content: "SS";
+  font-size: 10px;
+  font-weight: bold;
+  left: 10px;
+  position: absolute;
+}
+.fa-thumbs-up.joyance::after {
+  bottom: -4px;
+  color: #b3c1d2;
+  content: "JO";
+  font-size: 10px;
+  font-weight: bold;
+  left: 10px;
+  position: absolute;
+}
+
+.cke_chrome {
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+.cke_bottom {
+  background: #ffffff none repeat scroll 0 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
